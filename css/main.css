@@ -1,0 +1,26 @@
+body{
+	background-color:#EDDBF4;
+}
+header{
+  background-color:#C377E0;
+}
+
+img{
+	text-align:center;
+	width:15%;
+}
+button{
+	margin-top:2%;
+}
+span{
+	background-color:#EDEFF0;
+	margin-bottom:3%;
+	margin-top:3%;
+	padding:2%;
+}
+.btn{
+	margin-bottom:2%;
+}
+.form-control{
+	height:50px;
+}
