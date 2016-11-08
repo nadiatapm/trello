@@ -10,22 +10,27 @@
 <body>
 	<header class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12">
+			<div class="col-xs-4 col-sm-4 col-md-4">
 				<a href="#"><img src="img/trello-logo-white.png"></a>
 			</div>
 		</header>
 		<section class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-3">
-					<form>
-						<span onclick="anadirTareas()" ><span class="glyphicon glyphicon-plus"></span> Añadir Lista</span>
-					</form>
-					<div id="agregarLista">
+				<div class="col-xs-4 col-sm-4 col-md-4">
+					<p><span onclick="formularioLista()"><span class="glyphicon glyphicon-plus"></span>Agregar Lista</span></p>
+					
+				
+					<div class="hidden" id="formLista">
+					<input type="text" name="">
+					<button class="btn btn-primary">Guardar</button>
+
 					</div>
 				</div>
 			</div>
 		</section>
 		<script type="text/javascript" src="script.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 	</html>
 
